@@ -1,6 +1,6 @@
 <template>
-    <nuxt-link :to="postLink" class="post-preview"
-        ><article>
+    <nuxt-link :to="postLink" class="post-preview">
+        <article>
             <div
                 class="post-thumbnail"
                 :style="{ backgroundImage: 'url(' + thumbnail + ')' }"
@@ -9,8 +9,8 @@
                 <h1>{{ title }}</h1>
                 <p>{{ previewText }}</p>
             </div>
-        </article></nuxt-link
-    >
+        </article>
+    </nuxt-link>
 </template>
 
 <script>
