@@ -56,10 +56,14 @@ export default {
     env: {
         baseUrl:
             process.env.BASE_URL ||
-            "https://nuxt-blog-cc665-default-rtdb.firebaseio.com/"
+            "https://nuxt-blog-cc665-default-rtdb.firebaseio.com/",
+        fbAPIKey: "AIzaSyDlf6B5JL3LdE8HeCHsB6VbsMTp7P3UN_U"
     },
     transition: {
         name: "fade",
         mode: "out-in"
     }
+    // router: {
+    //     middleware: "log"
+    // }
 };
